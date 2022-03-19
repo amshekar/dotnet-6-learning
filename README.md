@@ -86,3 +86,5 @@
 9.	Life Cycle
 10.	Dependency Injection
 11.	API Vs Micro Services
+
+Reference link : https://github.com/LinkedInLearning/NET6-deep-dive-2894045
