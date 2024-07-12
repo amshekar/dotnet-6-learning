@@ -37,7 +37,7 @@ I.  . Angular architecture
 - *Why*: To format data in the template.
 - *How*: Use the @Pipe decorator to define a pipe and use it in templates with the pipe operator (|).
 
-II.	. Error Handling
+##  II.	. Error Handling
 
 ### 1. RxJS catchError Operator
 - *What*: A function to catch and handle errors in Observable streams.
@@ -64,7 +64,7 @@ II.	. Error Handling
 - *Why*: To manage errors that occur within a particular component.
 - *How*: Use lifecycle hooks like ngOnDestroy to detect and handle errors.
 
-III.  . Log Explanation
+##  III.  . Log Explanation
 
 ### 1. Console Logging
 - *What*: Using console.log() to output messages to the browser console.
@@ -91,7 +91,7 @@ III.  . Log Explanation
 - *Why*: To collect and analyze logs from different environments and devices.
 - *How*: Use the service's SDK to send logs from your Angular application to the external service.
 
-IV.  . Unit testing 
+##  IV.  . Unit testing 
 ### 1. What is Unit Testing?
 - *What*: Testing individual parts (units) of an application in isolation.
 - *Why*: To ensure each part of the application works correctly on its own.
@@ -118,7 +118,7 @@ IV.  . Unit testing
 - *How*: Use Jasmine's spyOn() function to create mock methods and services.
 
 
-V.  . End to end workflow of authentication
+##  V.  . End to end workflow of authentication
 
 ### 1. User Login
 - *What*: The process where a user enters their credentials to access the application.

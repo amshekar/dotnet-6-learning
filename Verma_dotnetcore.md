@@ -1,6 +1,6 @@
 # dotnetcore-intrview-learning
 
-I.  . dotnetcore architecture
+## I.  . dotnetcore architecture
 
 ### 1. Middleware
 - *What*: Components that handle HTTP requests and responses.
@@ -37,7 +37,7 @@ I.  . dotnetcore architecture
 - *Why*: To secure the application and protect sensitive data.
 - *How*: Use services.AddAuthentication() and services.AddAuthorization() in Startup.cs, and apply [Authorize] attributes to controllers or actions.
 
-II.	. Error Handling
+##  II.	. Error Handling
 
 ### 1. Developer Exception Page
 - *What*: A page that shows detailed error information during development.
@@ -64,7 +64,7 @@ II.	. Error Handling
 - *Why*: To ensure consistent error handling across the application.
 - *How*: Create custom middleware to catch exceptions and return appropriate HTTP responses.
 
-III.  . Log Explanation
+##  II.  . Log Explanation
 
 ### 1. Console Logging
 - *What*: Logging messages to the console.
@@ -91,7 +91,7 @@ III.  . Log Explanation
 - *Why*: To enhance logging capabilities and store logs externally.
 - *How*: Install the necessary NuGet packages and configure them in `Program.cs`.
 
-IV.  . Unit testing 
+##  IV.  . Unit testing 
 
 ### 1. What is Unit Testing?
 - *What*: Testing individual parts (units) of an application in isolation.
@@ -122,7 +122,7 @@ IV.  . Unit testing
   - *Assert*: Verify the result is as expected.
 
 
-V.  . End to end workflow of authentication
+##  V.  . End to end workflow of authentication
 
 ### 1. User Login
 - *What*: The process where a user enters their credentials to access the API.
